@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @Dogusyldz
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html>
+<head>
+<title>hello wwrold </title>
+</head>
+<body>
 
-<!---
-Dogusyldz/Dogusyldz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<h1>Bu bir başlıktır.</h1>
+<p>Bu bir paragraftır.</p>
+
+</body>
+</html>
