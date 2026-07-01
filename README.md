@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<title> hello wwrold </title>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
 </head>
-<body>
+<body class="bg-stone-50 text-stone-800">
 
-<h1>Bu bir başlıktır.</h1>
-<p>Bu bir paragraftır.</p>
+    <!-- HEADER -->
+    <nav class="flex justify-between items-center p-8 max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold tracking-tighter italic text-stone-900">ELENA<span class="text-rose-400">VIP</span></h1>
+        <div class="hidden md:flex gap-8 text-sm font-semibold text-stone-500">
+            <a href="#" class="hover:text-rose-400">HİZMETLER</a>
+            <a href="#" class="hover:text-rose-400">KAMPANYALAR</a>
+            <a href="#" class="hover:text-rose-400">İLETİŞİM</a>
+        </div>
+        <a href="tel:05451484214" class="bg-stone-900 text-white px-6 py-2 rounded-full text-xs font-bold hover:bg-rose-400 transition">RANDEVU AL</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main class="max-w-6xl mx-auto px-8 py-10">
+        <div class="grid md:grid-cols-2 gap-12 items-center bg-white p-12 rounded-[2rem] shadow-sm border border-stone-100">
+            <div>
+                <span class="text-rose-400 font-bold tracking-widest text-xs uppercase">2023 ÖDÜLLÜ SALON</span>
+                <h2 class="text-5xl font-bold mt-4 mb-6 leading-tight">Van'ın Güzellik<br>Merkezi</h2>
+                <p class="text-stone-500 mb-8">2023 ödüllü güzellik salonumuzda; profesyonel epilasyon ve cilt bakımı uygulamalarıyla kendinizi özel hissedin.</p>
+                <div class="flex gap-4">
+                    <button class="bg-rose-400 text-white px-8 py-4 rounded-full font-bold hover:bg-rose-500 transition">Hizmetleri İncele</button>
+                </div>
+            </div>
+            <div class="bg-stone-200 h-96 rounded-[2rem]">
+                <!-- Buraya salon görseli gelecek -->
+            </div>
+        </div>
+
+        <!-- HİZMETLER GRID -->
+        <section class="py-20">
+            <h3 class="text-sm font-bold text-stone-400 mb-10 text-center">UZMANLIK ALANLARIMIZ</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-8 bg-white rounded-[2rem] border border-stone-100">
+                    <h4 class="font-bold text-xl mb-2">Epilasyon</h4>
+                    <p class="text-sm text-stone-500">Son teknoloji cihazlarla pürüzsüz bir deneyim.</p>
+                </div>
+                <div class="p-8 bg-white rounded-[2rem] border border-stone-100">
+                    <h4 class="font-bold text-xl mb-2">Cilt Bakımı</h4>
+                    <p class="text-sm text-stone-500">Cildinize özel profesyonel dokunuşlar.</p>
+                </div>
+                <div class="p-8 bg-white rounded-[2rem] border border-stone-100">
+                    <h4 class="font-bold text-xl mb-2">İpek Kirpik</h4>
+                    <p class="text-sm text-stone-500">Etkileyici bakışlar için profesyonel uygulama.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
